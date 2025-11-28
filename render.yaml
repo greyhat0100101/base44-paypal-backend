@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: base44-paypal
+    runtime: deno
+    buildCommand: ""
+    startCommand: "deno run --allow-net --allow-env server/index.ts"
+    region: ohio
